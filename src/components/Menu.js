@@ -5,10 +5,14 @@ import ListDaysIcon from 'react-icons/lib/fa/table'
 
 export const Menu = () =>
 	<nav className="menu">
-		<Link to="/" activeClassName="selected"/>
+		<Link to="/" activeClassName="selected">
 			<HomeIcon />
-		<Link to="/add-day" activeClassName="selected"/>
+		</Link>
+		<Link to="/add-day" activeClassName="selected">
+		
 			<AddDayIcon />
-		<Link to="/list-days" activeClassName="selected"/>
+		</Link>
+		<Link to="/list-days" activeClassName="selected">
 			<ListDaysIcon />
+		</Link>
 	</nav>
